@@ -23,4 +23,11 @@ export class ContactoComponent {
       console.log(params);
     });
   }
+
+  redirigir(){
+    this._router.navigate(['/contacto','moisesaguilarweb.com'])
+  }
+  redirigirDos(){
+    this._router.navigate(['/pagina-principal',])
+  }
 }
